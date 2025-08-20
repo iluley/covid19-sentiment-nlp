@@ -6,6 +6,7 @@ seaborn
 tqdm
 
 torch
+torchvision
 transformers
 datasets
 accelerate
