@@ -1,7 +1,7 @@
 # COVID-19 Sentiment NLP
 
 End-to-end pipeline for sentiment classification on COVID-19 tweets.  
-The project covers preprocessing, baseline evaluations, and final fine-tuning with BERTweet and DeBERTa, including pruning and quantization.
+The project covers preprocessing, baseline evaluations, and final fine-tuning with BERTweet and DeBERTa, including three compression techniques - quantization, pruning and knowledge distillation.
 
 
 ##  Repository Structure
