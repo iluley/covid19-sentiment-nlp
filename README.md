@@ -110,6 +110,12 @@ If you see pointer files instead of actual weights, run:
 git lfs install
 git lfs pull
 ```
+If Git LFS is slow or blocked, you can download the same `.pt` files here:  
+[Google Drive backup — model weights](https://drive.google.com/drive/folders/15osPdIYL2JYlAXhbO4FDNamhG_vguA62?usp=sharing)
+
+Place the downloaded files under `fine_tuned_models/` (keep the exact filenames).  
+The repo’s Git LFS remains the source of truth; the Drive folder is a convenience mirror.
+
 
 ---
 
