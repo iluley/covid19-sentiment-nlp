@@ -7,18 +7,19 @@ The project covers preprocessing, baseline evaluations, and final fine-tuning wi
 ##  Repository Structure
 ```
 
-├─ data/ # Input CSVs and processed DataFrames
-├─ notebooks/ # All Jupyter notebooks
+├─ data/                                                              # Input CSVs and processed DataFrames
+├─ notebooks/                                                         # All Jupyter notebooks
 │ ├─ part_1_eda_preprocessing_transformation_final_data.ipynb
 │ ├─ baseline_benchmark_zero_shot_BART_raw_and_transformed.ipynb
 │ ├─ baseline_benchmark_few_shot_MiniLM_raw_and_transformed.ipynb
 │ ├─ baseline_benchmark_BERTweet_raw.ipynb
 │ ├─ part_2_fine_tuning_torch_hf_compression_BERTweet_DEBERTA.ipynb
-│ └─ inference_notebook.ipynb # batch metrics for saved .pt models
-├─ fine_tuned_models/ # Final model weights (.pt) tracked via Git LFS
-├─ setup_links.py # Creates links so notebooks run unchanged
-├─ requirements.txt # Dependencies
-└─ Covid19_sentiment_nlp.pdf # Report
+│ └─ inference_notebook.ipynb                                         # batch metrics for saved .pt models
+├─ fine_tuned_models/                                                 # Final model weights (.pt) tracked via Git LFS
+├─ setup_links.py                                                     # Creates links so notebooks run unchanged
+├─ requirements.txt                                                   # Dependencies
+├─ Covid19_sentiment_nlp.pdf                                          # Report
+└─ Links_to_models_Drive                                              # backup models folder
 
 ````
 
