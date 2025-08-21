@@ -118,6 +118,3 @@ See notebooks and the PDF report for detailed metrics.
 * pyarrow (needed by HF datasets)
 * optuna
 * wandb
-
-Do you want me to also add a **“Quick sanity check” snippet** at the very end (e.g., 3 lines of Python to verify the CSVs and models are accessible)? That way your instructor can test the environment right away.
-```
