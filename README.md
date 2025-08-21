@@ -65,7 +65,7 @@ This reads the original CSVs (`Corona_NLP_train.csv`, `Corona_NLP_test.csv`) and
 
 ### 2. Baselines
 
-Run in any order (all consume the final DataFrames):
+Run in any order (all use the final DataFrames):
 
 * `baseline_benchmark_zero_shot_BART_raw_and_transformed.ipynb`
 * `baseline_benchmark_few_shot_MiniLM_raw_and_transformed.ipynb`
@@ -92,7 +92,7 @@ notebooks/inference_notebook.ipynb
 * Infers the correct backbone per filename (BERTweet / DeBERTa / student models).
 * Loads the matching tokenizer (use_fast=False, same as training to avoid SentencePiece/TikToken pitfalls).
 * Evaluates on data/df_test_final.csv (labels come from the notebook’s label map).
-* Produces a final metrics table for each model: macro-F1, accuracy, precision, recall, AUC (AUC is reported when probability scores are available).
+* Produces a final metrics table for each model: macro-F1, accuracy, precision, recall.
 * Optionally saves a CSV of the results (see the last cell).
 
 Where to place weights:
